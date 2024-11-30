@@ -1,0 +1,76 @@
+PID   PPID   Name             Arch  Session  User                       Path
+
+---   ----   ----             ----  -------  ----                       ----
+
+  0     0    [Idle Process]
+
+  4     0    Kernel           x64   0
+
+ 300    4    init.exe         x64   0        NT AUTHORITY\SYSTEM        \SystemRoot\System32\init.exe
+
+ 350   300   logonui.exe      x64   1        NT AUTHORITY\SYSTEM        C:\Windows\system32\logonui.exe
+
+ 400   300   wininit.exe      x64   0        NT AUTHORITY\SYSTEM        C:\Windows\system32\wininit.exe
+
+ 450   400   svchost.exe      x64   0        NT AUTHORITY\SYSTEM        C:\Windows\system32\svchost.exe
+
+ 500   450   dllhost.exe      x64   0        NT AUTHORITY\SYSTEM        C:\Windows\system32\dllhost.exe
+
+ 550   450   spoolsv.exe      x64   0        NT AUTHORITY\SYSTEM        C:\Windows\system32\spoolsv.exe
+
+ 600   450   wmiprvse.exe     x64   0        NT AUTHORITY\SYSTEM        C:\Windows\system32\wmiprvse.exe
+
+ 650   400   lsass.exe        x64   0        NT AUTHORITY\SYSTEM        C:\Windows\system32\lsass.exe
+
+ 700   450   taskhostw.exe    x64   0        NT AUTHORITY\SYSTEM        C:\Windows\system32\taskhostw.exe
+
+ 750   400   conhost.exe      x64   0        NT AUTHORITY\SYSTEM        C:\Windows\system32\conhost.exe
+
+ 800   450   svchost.exe      x64   0        NT AUTHORITY\SYSTEM        C:\Windows\system32\svchost.exe
+
+ 850   450   explorer.exe     x64   0        NT AUTHORITY\SYSTEM        C:\Windows\Explorer\explorer.exe
+
+ 900   450   update.exe       x64   0        NT AUTHORITY\SYSTEM        C:\Windows\System32\update.exe
+
+1000   450   cmd.exe          x64   1        NT AUTHORITY\SYSTEM        C:\Windows\System32\cmd.exe
+
+1050  1000   powershell.exe   x64   1        NT AUTHORITY\SYSTEM        C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+
+1100  1050   python.exe       x64   1        NT AUTHORITY\SYSTEM        C:\Python\Python39\python.exe
+
+1200  1100   chrome.exe       x64   1        NT AUTHORITY\SYSTEM        C:\Program Files\Google\Chrome\Application\chrome.exe
+
+1250  1200   zoom.exe         x64   0        NT AUTHORITY\SYSTEM        C:\Program Files\Zoom\bin\zoom.exe
+
+1300  1250   notepad.exe      x64   0        NT AUTHORITY\SYSTEM        C:\Windows\System32\notepad.exe
+
+1350  1300   vlc.exe          x64   0        NT AUTHORITY\SYSTEM        C:\Program Files\VideoLAN\VLC\vlc.exe
+
+1400  1350   audacity.exe     x64   0        NT AUTHORITY\SYSTEM        C:\Program Files\Audacity\audacity.exe
+
+1450  1400   calc.exe         x64   0        NT AUTHORITY\SYSTEM        C:\Windows\System32\calc.exe
+
+1500  1450   teams.exe        x64   0        NT AUTHORITY\SYSTEM        C:\Program Files\Microsoft Teams\teams.exe
+
+1550  1500   thunderbird.exe  x64   0        NT AUTHORITY\SYSTEM        C:\Program Files\Mozilla Thunderbird\thunderbird.exe
+
+1600  1550   brave.exe        x64   0        NT AUTHORITY\SYSTEM        C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe
+
+1650  1600   vscode.exe       x64   0        NT AUTHORITY\SYSTEM        C:\Program Files\Microsoft VS Code\Code.exe
+
+1700  1650   regedit.exe      x64   0        NT AUTHORITY\SYSTEM        C:\Windows\System32\regedit.exe
+
+1750  1700   edge.exe         x64   0        NT AUTHORITY\SYSTEM        C:\Program Files\Microsoft Edge\Application\msedge.exe
+
+1800  1750   slack.exe        x64   0        NT AUTHORITY\SYSTEM        C:\Program Files\Slack\slack.exe
+
+1850  1800   virtualbox.exe   x64   0        NT AUTHORITY\SYSTEM        C:\Program Files\Oracle\VirtualBox\VirtualBox.exe
+
+1900  1850   spotify.exe      x64   0        NT AUTHORITY\SYSTEM        C:\Program Files\Spotify\spotify.exe
+
+1950  1900   paint.exe        x64   0        NT AUTHORITY\SYSTEM        C:\Windows\System32\mspaint.exe
+
+2000  1950   writer.exe       x64   0        NT AUTHORITY\SYSTEM        C:\Program Files\LibreOffice\program\swriter.exe
+
+
+
